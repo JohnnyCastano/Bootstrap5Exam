@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,15,121,1) 57%, rgba(6,70,159,1) 73%);
+}
+
+.page-header {
+    margin-top: 5rem;
+}
+
+p, h2{
+    color: aliceblue;
+}
+
+BLUE
+background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,15,121,1) 57%, rgba(6,70,159,1) 73%);
