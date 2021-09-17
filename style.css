@@ -14,8 +14,27 @@ body {
     margin-top: 5rem;
 }
 
-p, h2, h1{
+p, h2, h1, li{
     color: aliceblue;
 }
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L30,224C60,224,120,224,180,234.7C240,245,300,267,360,245.3C420,224,480,160,540,144C600,128,660,160,720,176C780,192,840,192,900,181.3C960,171,1020,149,1080,160C1140,171,1200,213,1260,218.7C1320,224,1380,192,1410,176L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+
+img {
+    image-rendering: auto;
+    image-orientation: flip;
+}
