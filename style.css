@@ -18,6 +18,10 @@ p, h2, h1, li{
     color: aliceblue;
 }
 
+.dif {
+    color: black;
+}
+
 .feature {
     color: #fff;
 }
@@ -37,4 +41,32 @@ p, h2, h1, li{
 img {
     image-rendering: auto;
     image-orientation: flip;
+}
+
+.change {
+    height: 300px;
+    width: 500px;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img{
+    border-radius: 5%;
+}
+
+.services {
+    color:#fff;
 }
